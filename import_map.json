@@ -1,0 +1,19 @@
+{
+	"imports": {
+		"@/": "./src/",
+		"@utils/": "./src/utils/",
+		"~grammy/": "./src/telegram/",
+		"@prisma/client": "./prisma/generated/client/deno/edge.ts",
+		"$std/": "https://deno.land/std@0.165.0/",
+		"diacritics": "https://deno.land/x/normalize_diacritics@v0.10.0/mod.ts",
+		"oak": "https://deno.land/x/oak@v11.1.0/mod.ts",
+		"validasaur": "https://deno.land/x/validasaur@v0.15.0/mod.ts",
+		"grammy": "https://deno.land/x/grammy@v1.12.0/mod.ts",
+		"grammy/types": "https://deno.land/x/grammy@v1.12.0/types.deno.ts",
+		"grammy-conversations/": "https://deno.land/x/grammy_conversations@v1.1.0/",
+		"qstash": "https://deno.land/x/upstash_qstash@v0.3.0/mod.ts",
+		"dayjs": "https://esm.sh/dayjs@1.11.5",
+		"menu": "https://deno.land/x/grammy_menu@v1.1.2/mod.ts",
+		"dayjs/": "https://esm.sh/dayjs@1.11.5/"
+	}
+}

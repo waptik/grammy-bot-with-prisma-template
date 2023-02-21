@@ -1,7 +1,10 @@
 {
 	"tasks": {
 		"check": "deno cache --check=all dev.ts",
-		"start": "deno fmt && deno lint && deno run --unstable -A --allow-read --allow-write  --allow-env --allow-run --allow-hrtime --watch=routes/ dev.ts",
+		"flint": "deno fmt && deno lint",
+		"dev": "deno run --unstable -A --allow-read --allow-write --allow-env --allow-run --allow-hrtime --watch=src/ dev.ts",
+		"start": "deno run --unstable -A --allow-read --allow-write --allow-env --allow-run --allow-hrtime --watch=src/ main.ts",
+		"demo": "deno run --unstable -A --allow-read --allow-write --allow-env --allow-run --allow-hrtime --watch=src/ demo.ts",
 		"refresh": "deno cache --reload dev.ts",
 		"db:push": "deno run -A --unstable npm:prisma db push && deno run -A --unstable npm:prisma generate --data-proxy"
 	},
